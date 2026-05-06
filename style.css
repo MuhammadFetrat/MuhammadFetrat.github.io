@@ -242,7 +242,7 @@ a {
 .paper-link {
   display: inline-block;
   font-weight: 700;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .paper-link:hover {
