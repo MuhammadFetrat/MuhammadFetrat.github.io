@@ -3,140 +3,137 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Full Name</title>
-  <meta name="description" content="Personal academic homepage of Your Full Name." />
+  <title>Muhammad Fetrat Qharabagh</title>
+  <meta name="description" content="Personal academic homepage of Muhammad Fetrat Qharabagh." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- ===== Top strip / banner ===== -->
   <header class="top-strip">
     <div class="top-strip-content">
-      <h1>Your Full Name</h1>
-      <p>Welcome to my page</p>
+      <h1>Muhammad Fetrat Qharabagh</h1>
+      <p>Welcome to My Page</p>
     </div>
   </header>
 
   <main class="page">
-    <!-- ===== First row: News box + image/association area ===== -->
     <section class="overview-row">
-      <!-- News box: fixed height; older news can be reached by scrolling -->
-      <aside class="news-box" aria-labelledby="news-heading">
-        <h2 id="news-heading">News</h2>
-
-        <div class="news-scroll">
-          <!-- Add newest news at the top. Older news will move down automatically. -->
-          <article class="news-item">
-            <time datetime="2026-05-01">May 1, 2026</time>
-            <p>New paper accepted at Conference Name.</p>
-          </article>
-
-          <article class="news-item">
-            <time datetime="2026-04-15">April 15, 2026</time>
-            <p>I presented my work at Workshop Name.</p>
-          </article>
-
-          <article class="news-item">
-            <time datetime="2026-03-20">March 20, 2026</time>
-            <p>I joined Research Group / Lab Name.</p>
-          </article>
-
-          <article class="news-item">
-            <time datetime="2026-02-10">February 10, 2026</time>
-            <p>Our project received a grant / award / recognition.</p>
-          </article>
-
-          <article class="news-item">
-            <time datetime="2026-01-05">January 5, 2026</time>
-            <p>Older news example. This stays inside the scrollable box.</p>
-          </article>
-        </div>
-      </aside>
-
       <section class="profile-card">
         <div class="profile-photo-wrap">
-          <!-- Replace this image with your real profile image, for example assets/profile.jpg -->
-          <img class="profile-photo" src="assets/profile-placeholder.svg" alt="Profile photo" />
+          <img class="profile-photo" src="assets/M.jpg" alt="Profile photo" />
         </div>
 
         <div class="profile-summary">
-          <p class="label">Position</p>
           <h2>PhD Student</h2>
+          <p class="profile-line">WatCL Lab</p>
+          <p class="profile-line">Cheriton School of Computer Science  </p>
+          <p class="profile-line">University of Waterloo</p>
 
-          <p class="label">Association</p>
-          <p class="association">
-            Your Department / Lab<br />
-            Your University
-          </p>
+          <div class="social-links compact-links" aria-label="Academic and professional links">
+            <a href="https://scholar.google.com/citations?user=jl7140cAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+              <img src="assets/google-scholar.svg" alt="Google Scholar logo" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/muhammad-fetrat-qharabagh-337175240/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <img src="assets/linkedin.svg" alt="LinkedIn logo" />
+            </a>
+
+            <a href="https://github.com/MuhammadFetrat" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <img src="assets/github.svg" alt="GitHub logo" />
+            </a>
+          </div>
         </div>
       </section>
+
+      <aside class="news-box" aria-labelledby="news-heading">
+        <div class="news-header">
+          <h2 id="news-heading">News</h2>
+        </div>
+
+        <div class="news-scroll">
+          <article class="news-item">
+            <time datetime="2026-04-30">April 30, 2026</time>
+            <p>Our paper "<a href="https://arxiv.org/abs/2601.23207" target="_blank" rel="noopener noreferrer">Learning to Execute Graph Algorithms Exactly with Graph Neural Networks</a>" has been accepted to ICML 2026 as a <strong>spotlight (top 2.2%)</strong>.</p>
+          </article>
+
+          <article class="news-item">
+            <time datetime="2026-02-24">February 24, 2026</time>
+            <p>Our paper "<a href="https://arxiv.org/abs/2412.00686" target="_blank" rel="noopener noreferrer">LVLM-COUNT: Enhancing the Counting Ability of Large Vision-Language Models</a>" is published at TMLR.</p>
+          </article>
+        </div>
+      </aside>
     </section>
 
-    <!-- ===== Separate Bio section ===== -->
     <section class="bio-section" id="bio">
       <div class="bio-text">
-        <p class="section-label">My bio</p>
-        <h2>About me</h2>
+        <h2>About Me</h2>
+    
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua.
+          I am a third year PhD student in the David R. Cheriton School of Computer Science at the University of Waterloo. 
+          I am working under the supervision of 
+          <a href="https://cs.uwaterloo.ca/about/people/kfountou" target="_blank" rel="noopener noreferrer">
+            Prof. Kinom Fountoulakis
+          </a>. 
+          <strong>My research is focused on numerical, mathematical, and algorithmic reasoning with neural networks and large language models.</strong>
         </p>
-      </div>
-
-      <div class="bio-links">
-        <p class="section-label">Links</p>
-
-        <div class="social-links" aria-label="Academic and professional links">
-          <!-- Replace these URLs with your real links -->
-          <a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
-            <img src="assets/google-scholar.svg" alt="Google Scholar logo" />
-            <span>Google Scholar</span>
-          </a>
-
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <img src="assets/linkedin.svg" alt="LinkedIn logo" />
-            <span>LinkedIn</span>
-          </a>
-        </div>
+    
+        <p>
+          I completed my MSc from 2021 to 2023 in Electrical and Computer Engineering at the University of Alberta under the supervision of 
+          <a href="https://apps.ualberta.ca/directory/person/ardakani" target="_blank" rel="noopener noreferrer">
+            Prof. Masoud Ardakani
+          </a>. 
+          I was an associate research intern in the Neural Architecture Search team at Huawei's Noah’s Ark in Edmonton, Canada from summer 2022 to summer 2023.
+        </p>
+    
+        <p>
+          I received my BSc in Electrical Engineering from Amirkabir University of Technology (Tehran Polytechnic) as the highest-ranked student.
+        </p>
+    
       </div>
     </section>
 
-    <!-- ===== Publications Section ===== -->
     <section class="publications" id="publications">
       <h2>Selected Publications</h2>
 
       <article class="publication-card">
-        <img src="assets/publication-placeholder.svg" alt="Publication 1 image" />
+        <img src="assets/main_diagram.jpg" alt="Publication 1 image" />
         <div>
-          <h3>Publication 1</h3>
+          <h3>Learning to Execute Graph Algorithms Exactly with Graph Neural Networks</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
+            <strong>Muhammad Fetrat Qharabagh</strong>, A. Back de Luca, G. Giapitzakis, K. Fountoulakis
+            <br>
+            Accepted to International Conference on Machine Learnin (2026) as <strong>spotlight (top 2.2%)</strong>
           </p>
-          <a class="paper-link" href="#" target="_blank" rel="noopener noreferrer">Read paper</a>
+          <a class="paper-link" href="https://arxiv.org/abs/2601.23207" target="_blank" rel="noopener noreferrer">Read paper</a>
         </div>
       </article>
 
       <article class="publication-card">
-        <img src="assets/publication-placeholder.svg" alt="Publication 2 image" />
+        <img src="assets/method_workflow.jpg" alt="Publication 2 image" />
         <div>
-          <h3>Publication 2</h3>
+          <h3>LVLM-COUNT: Enhancing the Counting Ability of Large Vision-Language Models</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
+            <strong>Muhammad Fetrat Qharabagh</strong>, M. Ghofrani, K. Fountoulakis
+            <br>
+            <a href="https://openreview.net/forum?id=G1i9MUQj63" target="_blank" rel="noopener noreferrer">Transactions on Machine Learning Research</a>
           </p>
-          <a class="paper-link" href="#" target="_blank" rel="noopener noreferrer">Read paper</a>
+          <a class="paper-link" href="https://arxiv.org/abs/2412.00686" target="_blank" rel="noopener noreferrer">Read paper</a>
         </div>
       </article>
 
       <article class="publication-card">
-        <img src="assets/publication-placeholder.svg" alt="Publication 3 image" />
+        <img src="assets/reparameterization_equivalence.jpg" alt="Publication 3 image" />
         <div>
-          <h3>Publication 3</h3>
+          <h3>Reparameterization through Spatial Gradient Scaling</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
+            A. Detkov, M. Salameh*, <strong>Muhammad Fetrat Qharabagh*</strong>, J. Zhang, W. Lui, S. Jui, D. Niu
+            <br>
+            <a href="https://openreview.net/forum?id=Kpdewuy7RU6" target="_blank" rel="noopener noreferrer">International Conference on Learning Representation (2023)</a>
+            <br>
+            <span style="font-size: 0.9em;">
+              *Indicates equal contribution.
+            </span>
           </p>
-          <a class="paper-link" href="#" target="_blank" rel="noopener noreferrer">Read paper</a>
+          <a class="paper-link" href="https://arxiv.org/abs/2303.02733" target="_blank" rel="noopener noreferrer">Read paper</a>
         </div>
       </article>
     </section>
